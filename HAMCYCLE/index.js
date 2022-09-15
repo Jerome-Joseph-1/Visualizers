@@ -104,7 +104,7 @@ function join(){
                 // place from c1 to c2
                 var width = Math.sqrt(Math.abs((c1.left-c2.left)*(c1.left-c2.left) + (c1.top-c2.top)*(c1.top-c2.top)))
                 var angle = Math.atan((c1.top-c2.top)/(c1.left-c2.left))*180/3.14152
-                if(c1.left > c2.left && Math.floor(angle) != 90){
+                if(c1.left > c2.left && Math.abs(Math.floor(angle)) != 90){
                     angle = 180 - Math.atan((c1.top-c2.top)/(c2.left-c1.left))*180/3.14152
                 }
                 var line = document.createElement('div')
