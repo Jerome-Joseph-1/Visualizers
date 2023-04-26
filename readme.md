@@ -1,2 +1,2 @@
 JS VISUALIZATION OF ALGORITHMS : 
-LINK : https://breserknight.github.io/Visualizers/
+LINK : https://Jerome-Joseph-1.github.io/Visualizers/
